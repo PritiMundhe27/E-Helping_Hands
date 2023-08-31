@@ -1,0 +1,35 @@
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 4rem;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.75rem;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 0 50px rgb(0, 0, 0, 0.2);
+    overflow: hidden;
+    box-sizing: border-box;
+    z-index: 100;
+}
+
+.navbar-left,.navbar-right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navbar-logo{
+    max-width: 6rem;
+    height: 4rem;
+    object-fit: contain;
+    mix-blend-mode: multiply;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}

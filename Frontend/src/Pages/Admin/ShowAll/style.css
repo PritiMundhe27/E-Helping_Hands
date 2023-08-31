@@ -1,0 +1,129 @@
+.table-card{
+  height: auto;
+  padding: 3rem;
+  background: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  max-height: max-content;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1); 
+}
+.table-card h2{
+  border-bottom: 1px solid;
+}
+.table-card #Table {
+    border-collapse: collapse; /* Collapse borders */
+    width: 100%; /* Full-width */
+    border: 1px solid #ddd; /* Add a grey border */
+    font-size: 18px; /* Increase font-size */
+  }
+  
+  .table-card #Table th, .table-card #Table td {
+    text-align: left; /* Left-align text */
+    padding: 12px; /* Add padding */
+  }
+  
+  .table-card #Table tr {
+    /* Add a bottom border to all.table-card  table rows */
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .table-card #Table tr.header, .table-card #Table tr:hover {
+    /* Add a grey background color to the table header and on hover */
+    background-color: #f1f1f1;
+  }
+
+
+  .table-card .edit-button {
+    background-color: initial;
+    background-image: linear-gradient(-180deg, #00D775, #00BD68);
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Inter,-apple-system,system-ui,Roboto,"Helvetica Neue",Arial,sans-serif;
+    height: 44px;
+    line-height: 44px;
+    outline: 0;
+    overflow: hidden;
+    padding: 0 20px;
+    pointer-events: auto;
+    position: relative;
+    text-align: center;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: top;
+    white-space: nowrap;
+    border: 0;
+    margin: 0 5px;
+    /* margin-top: 1rem; */
+  }
+  
+  .table-card .edit-button:hover {
+    background: #00bd68;
+  }
+
+  
+
+  .table-card .delete-button {
+    margin: 0 5px;
+    background-color: initial;
+    background-image: linear-gradient(-180deg, #d70000, #bd0000);
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Inter,-apple-system,system-ui,Roboto,"Helvetica Neue",Arial,sans-serif;
+    height: 44px;
+    line-height: 44px;
+    outline: 0;
+    overflow: hidden;
+    padding: 0 20px;
+    pointer-events: auto;
+    position: relative;
+    text-align: center;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: top;
+    white-space: nowrap;
+    border: 0;
+  }
+  
+  .table-card .delete-button:hover {
+    background: #bd0000;
+  }
+
+  .table-card .settings-button {
+    margin: 0 5px;
+    background-color: initial;
+    background-image: linear-gradient(-180deg, #9c9c9c, #727272);
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Inter,-apple-system,system-ui,Roboto,"Helvetica Neue",Arial,sans-serif;
+    height: 44px;
+    line-height: 44px;
+    outline: 0;
+    overflow: hidden;
+    padding: 0 20px;
+    pointer-events: auto;
+    position: relative;
+    text-align: center;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: top;
+    white-space: nowrap;
+    border: 0;
+  }
+  
+  .table-card .settings-button:hover {
+    background: #7a7a7a;
+  }
